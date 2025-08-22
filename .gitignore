@@ -1,0 +1,68 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.*
+*.env
+
+# Docker
+*.log
+docker-compose.override.yml
+
+# VS Code
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node/Web
+node_modules/
+*.log
+
+# Next.js build output
+.next/
+out/
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Ignore app build artifacts
+app/.next/
+app/out/
+
+# Ignore package manager files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Database
+*.sqlite3
+*.db
+
+# Misc
+*.swp
+*.swo
+
+# Ignore compiled files in agents and db
+server/agents/__pycache__/
+server/db/__pycache__/
+server/__pycache__/
+
+# Ignore build and dist folders
+build/
+dist/
+
+# Ignore test output
+*.coverage
+coverage/
+
+# Ignore web static cache
+web/static/
+
+# Claude settings
+.claude/
+settings.local.json
